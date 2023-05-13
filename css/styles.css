@@ -88,19 +88,8 @@ h2 {
     letter-spacing: 0.02em;
     color: #2e2f42;
     padding: 24px 0;
-    position: relative;
+}
 
-}
-.header-item-link::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    height: 4px;
-    background-color: #404bbf;
-    border-radius: 2px;
-    color: #404bbf;
-}
 
 .contacts {
     color: #434455;
@@ -206,7 +195,6 @@ h2 {
     cursor: pointer;
     margin: 0 auto;
     padding: 16px 32px;
-    
 }
 
 .hero-button:hover,
@@ -413,8 +401,8 @@ h2 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    margin-left: 470px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    margin-top: 0;
 }
 
 .fifth-section-list {
@@ -443,7 +431,19 @@ h2 {
     fill: currentColor;
 }
 
-.fifth-section-link:hover,
+.fifth-section-icon:hover {
+    color: #404bbf;
+}
+
+.fifth-section-icon:focus {
+    color: #404bbf;
+}
+
+.fifth-section-link:hover {
+    border-color: #404bbf;
+    color: #404bbf;
+}
+
 .fifth-section-link:focus {
     border-color: #404bbf;
     color: #404bbf;
@@ -453,7 +453,7 @@ h2 {
 .footer {
     background: #2E2F42;
     padding: 100px 0;
-    max-width: 1440px;
+
     margin-left: auto;
     margin-right: auto;
 }
@@ -494,7 +494,7 @@ h2 {
 .section-footer {
     display: flex;
     align-items: baseline;
-    margin-right: 120px;
+
 }
 
 .footer-container {
