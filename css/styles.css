@@ -269,6 +269,15 @@ h2 {
     background-color: #f4f4fd;
     border-radius: 4px;
     margin-bottom: 8px;
+    fill: currentColor;
+}
+
+.strategy-icon:hover {
+    color: #404bbf;
+}
+
+.strategy-icon:focus {
+    color: #404bbf;
 }
 
 /* Section 3 */
